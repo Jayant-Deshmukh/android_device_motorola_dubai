@@ -88,5 +88,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml
 
+# Quick Tap
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/quick_tap.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/quick_tap.xml
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/dubai/dubai-vendor.mk)
