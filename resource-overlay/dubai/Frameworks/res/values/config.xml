@@ -270,6 +270,10 @@
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">60</integer>
 
+
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">motorolaedge30</string>
     <!-- MMS user agent profile url -->
